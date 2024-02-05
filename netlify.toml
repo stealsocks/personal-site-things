@@ -1,0 +1,24 @@
+baseURL = "/"
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+      Access-Control-Allow-Origin = "*"
+
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.105.0"
+
+[[headers]]
+  for = "/fonts/*"
+    [headers.values]
+    Cache-Control = "public, immutable, max-age=31536000"
+
+[[headers]]
+  for = "/photos/*"
+    [headers.values]
+    Cache-Control = "public, immutable, max-age=31536000"
+
