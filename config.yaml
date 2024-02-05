@@ -1,13 +1,34 @@
 baseURL: "/"
 languageCode: en-us
 defaultContentLanguage: en
-title: Handy
-description: Web dev utilities for ordinary people.
+title: Things You Can Add To A Personal Site
+description: Every single thing I could think of, except my professional secrets.
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+permalinks:
+  guides: /:filename/
+  lists: /:filename/
+  writing: /:filename/
 
 imaging:
   quality: 99
 
 enableRobotsTXT: true
+
+minify:
+  minifyOutput: true
+
+outputs:
+  home:
+    - html
+    - rss
+    - json
+  page:
+    - html
+    - json
 
 tdewolff:
     css:
@@ -34,10 +55,13 @@ tdewolff:
     xml:
       keepWhitespace: false
 
+disableKinds:
+- sitemap
+
 params:
   AuthorName: Judah
   GitHubUser: stealsocks
-  description: Web dev utilities for ordinary people.
+  description: Every single thing I could think of, except my professional secrets.
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   katex: true
