@@ -147,7 +147,13 @@ code{
 		}
 
 		main{
-			font-size: 16px;
+			font-size: 17px;
+			padding-top: 1em;
+		}
+
+		.title:hover{
+			background: transparent;
+	    	color: var(--black);
 		}
 }
 

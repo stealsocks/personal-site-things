@@ -1,6 +1,6 @@
 ---
 title: Personal
-# draft: true
+draft: true
 ---
 
 

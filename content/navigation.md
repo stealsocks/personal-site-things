@@ -1,6 +1,6 @@
 ---
 title: Navigation
-# draft: true
+draft: true
 ---
 
 ## Sidebar-based navigation

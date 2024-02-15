@@ -1,6 +1,6 @@
 ---
 title: Writing
-# draft: true
+draft: true
 ---
 
 Essays
