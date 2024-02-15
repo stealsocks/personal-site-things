@@ -1,5 +1,6 @@
 ---
 title: Navigation
+# draft: true
 ---
 
 ## Sidebar-based navigation
@@ -13,3 +14,5 @@ title: Navigation
 ## Smarter Index page
 
 ## Recent changes list on home page
+
+## Footer
