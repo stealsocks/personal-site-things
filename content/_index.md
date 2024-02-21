@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Things You Can Add To A Personal Site
 ---
 
 This is a dangerous thing to do, giving away most of what I hold in my head about personal sites for free. This knowledge is what I'm usually paid for ([quite literally](https://webcraft.joodaloop.com)).
