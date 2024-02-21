@@ -4,13 +4,13 @@ title: Layout
 
 This is the highest-level decision you can make.
 
-Most other design details will follow from this one. Like fonts: if you go with a modern bento-box style, you're probably going to use a geometric sans-serif. If you want your site to look like a beautifully typeset book, you better find a great serif.
+Other design details will follow from this one. Like fonts: if you go with a modern bento-box style, you're probably going to use a geometric sans-serif. If you want your site to look like a beautifully typeset book, you better find a great serif.
 
-Most of the patterns here are meant to be used for the **home page** of your site. Content pages are generally simpler because they have to work for every essay/post, the home page is under your direct control and allows for cooler designs.
+Most of the patterns here are meant to be used for the [home page](/home) of your site. Content pages need to be simpler because they have to work for every essay/post, but the home page is under your direct control and allows for cooler designs.
 
-I'm going to skip past the simple single-column vertical scroll page, because it's the web default (and it's a pretty good default too!).
+I'm going to skip past the simple single-column vertical scroll page, because it's the web default. And it's a pretty good default too! Works on every kind of device screen, no need to write a single `@media screen` query if you don't want to. 
 
-## Vertical split
+## Vertical splits
 
 <figure>
 	<a href="https://andymatuschak.org/">
@@ -19,7 +19,9 @@ I'm going to skip past the simple single-column vertical scroll page, because it
 	</a>
 </figure>
 
-Simple enough (thought surprisingly difficult to implement), it's a step towards a more dense layout. It doesn't work great on phones, because the columns are usually set to wrap under the previous one in one long column, which is the same thing as having a single column page to start off with.
+Simple enough (though surprisingly difficult to implement), it's a step towards a denser layout. 
+
+It doesn't really "work" on phones, because there the columns are usually set to wrap under the previous one in one long column, which is the same thing as having a single column page to start off with.
 
 *But who cares about phones?* 
 
@@ -47,7 +49,7 @@ You can fit in a ton of content like this – the "blog" section could contain t
 
 ---
 
-## Horizontal split
+## Down the middle
 
 This one is surprisingly uncommon, compared to how well it can work for certain types of content (portfolios, multiple sections of writing). 
 
@@ -58,16 +60,16 @@ This one is surprisingly uncommon, compared to how well it can work for certain 
 	</a>
 </figure>
 
-It's not very different from a sidebar. Just like the sidebar, it contains the [navigation](/navigation) for your site. But it's size means that it can hold way more information. 
+It's not very different from a sidebar. Just like the sidebar, it can contain the main [navigation](/navigation) for your site. But it's size means that it can hold way more information, including the secondary nav for the current site section, or a table of contents.
 
 ---
 
 ## Table / grid
 
 <figure>
-	<a href="https://gemmacope.land/">
-		<img src="/photos/copeland.png"> 
-		<figcaption>Add Chia's site</figcaption>
+	<a href="https://chia.design/">
+		<img src="/photos/chia.png"> 
+		<figcaption>Chia Amisola</figcaption>
 	</a>
 </figure>
 
@@ -75,12 +77,10 @@ Tables on the web are...tricky. It's really nice that there's a defined `<table>
 
 The best place to use this layout is for comprehensive indexes, the kind that lay out your whole existence in one, super-dense grid of text. 
 
-But you can also bring it in more subtly (like [Paco's site](add archive link) does), depending on your whitespace preferences. 
-
 <figure class=left>
-	<a href="https://gemmacope.land/">
-		<img src="/photos/copeland.png"> 
-		<figcaption>Add the grid site</figcaption>
+	<a href="https://nicochilla.com/">
+		<img src="/photos/nico.png"> 
+		<figcaption>Nico Chilla</figcaption>
 	</a>
 </figure>
 
@@ -91,32 +91,45 @@ For styling, you can play around with border styles, cell colors and padding, fo
 
 ---
 
-## Bento
+<!-- # Bento
 
 In most cases, the layout for each bento-style page needs to be tailored to it's contents. 
 
----
+--- -->
 
 ## App
 
-Overkill? Maybe. 
 
-https://brianlovin.com/writing/
+<figure>
+	<a href="https://brianlovin.com/">
+		<img src="/photos/brian.png"> 
+		<figcaption>Brain Lovin</figcaption>
+	</a>
+</figure>
+
+As far as I know, [Brian](https://brianlovin.com/writing/) seems to be person who did this first (or at least, most famously). And it seems to have [found](https://www.sj.land/) a niche among in the "developer" demographic of website-havers. 
+
+
+Another well-known example comes from [Rauno](https://rauno.me/). Each page on his site is almost a different app, and the dock has a volume control button.
+
+Overkill? Maybe. But not as bad (good?) as the people who use [literal desktop OS](https://github.com/syxanash/awesome-web-desktops) layouts as their entire site. This, I don't particularly recommend because it breaks a lot of the rules around how a good website should work.
+
+---
 
 ## Timeline
 
 <figure>
-	<a href="https://gemmacope.land/">
-		<img src="/photos/copeland.png"> 
-		<figcaption>Add Colly</figcaption>
+	<a href="https://colly.com/">
+		<img src="/photos/colly.png"> 
+		<figcaption>Simon Collison</figcaption>
 	</a>
 </figure>
 
 Implementation is an open problem, but the idea of your home page being a timeline of your life will directly affect it's layout, so I'm counting it as one. 
 
-A simple vertical list is on the easier side of the scale (and can look pretty good). 
+A simple vertical list (with notable events following each other in chronological order) is on the easier side of the scale, and can look pretty good too. 
 
-Simon's site is on the other end, and I'm slightly afraid to find out how he does it.
+Simon's site, however, is on the other end of this simplicity scale. It's intricate, and laid out as multiple horozontal tracks. But it collapses beautifully to smaller screen sizes, really excellent stuff.  
 
 ---
 
@@ -124,3 +137,13 @@ Simon's site is on the other end, and I'm slightly afraid to find out how he doe
 
 This is "just" a vertical page, yes. But hardly anybody does multiple columns of text on the web anymore! It's a shame, beause `column-count: 2` makes it so easy.
 
+<figure class=left>
+	<a href="https://paco.me/">
+		<img src="/photos/paco.png"> 
+		<figcaption>Paco Coursey</figcaption>
+	</a>
+</figure>
+
+I also count table-style layouts (like Paco's site here) as multi-column. As long as you hide the cell-border lines, the effect is usually the same. 
+
+Webpages descended from literal "typeset-in-books" pages, you're allowed to lean on those design languages.  

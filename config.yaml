@@ -4,15 +4,6 @@ defaultContentLanguage: en
 title: Things You Can Add To A Personal Site
 description: Every single thing I could think of, except my professional secrets.
 
-taxonomies:
-  tag: "tags"
-  category: "categories"
-
-permalinks:
-  guides: /:filename/
-  lists: /:filename/
-  writing: /:filename/
-
 imaging:
   quality: 99
 

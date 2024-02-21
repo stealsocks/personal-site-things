@@ -14,7 +14,17 @@ h2{
 	font-weight: 800;
 /*	opacity: 0.7;*/
 	letter-spacing: -1px;
-	margin: 1.5em 0em 1em 0em;
+	margin: 1.75em 0em 1em 0em;
+}
+
+h3{
+	font-weight: 200;
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+h4{
+	margin: 2em 0em -1em 0em;
 }
 
 a{
@@ -67,8 +77,13 @@ hr{
 	opacity: 0;
 }
 
+ol, ul{
+	margin: 1.5em 0em;
+}
+
 li {
-	margin-block-start: -1em;
+	margin-block-start: 0em -1em;
+	margin: 0.5em 0em;
 }
 
 code{
