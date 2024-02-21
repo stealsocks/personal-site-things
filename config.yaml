@@ -10,7 +10,7 @@ imaging:
 enableRobotsTXT: true
 
 minify:
-  minifyOutput: true
+  minifyOutput: false
 
 outputs:
   home:
