@@ -64,9 +64,6 @@ Things that are good enough to give to other people. Some poeple, [like Robin](h
 
 ## Personal
 
-#### Manifesto
-You really should write one. And it's perfectly fine to rewrite it every year.
-
 #### FAQ
 Answers to questions you've been asked, and those you wish you were asked.
 
