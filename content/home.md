@@ -1,5 +1,5 @@
 ---
-title: Home page
+title: Home Page
 ---
 
 Web tradition demands that every personal site have a bare minimum of three pages: the About, Blog, and Home page.

@@ -12,6 +12,8 @@ But the people have asked for it, and I'm a nice guy. Also, I have ideas that I 
 
 ## Updates
 
+[Media](/media) – 26th February, 2024
+
 [Lists](/lists) – 20th February, 2024
 
 [Layout](/layout) – 10th February, 2024
@@ -22,4 +24,6 @@ But the people have asked for it, and I'm a nice guy. Also, I have ideas that I 
 ## Recommended reading
 
 - [How to use a personal website to enhance your ability to think and create?](https://michaelnotebook.com/wn/website_enhance.html) 
-- [Dream bf](https://twitter.com/Mappletons/status/1664256564037820417)
+- [dream bf](https://twitter.com/Mappletons/status/1664256564037820417)
+- [Things To Think About When Blogging](https://write-yourself-in.blogspot.com/2022/11/things-to-think-about-when-blogging.html)
+- [The modern guide to creating a personal website that drives career and personal growth](https://approachabledesign.co/articles/personal-website)

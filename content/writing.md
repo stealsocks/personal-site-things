@@ -9,7 +9,7 @@ Stream
 Short stories
 Letters
 Commonplace
-Journal
+Journal/Project logs
 Reviews (books, movies, drinks, food, clothes, apps, people)
 
 ## Manifesto

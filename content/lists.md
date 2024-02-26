@@ -2,7 +2,7 @@
 title: Lists
 ---
 
-Curation, the fundamental duty of the netizen. So easy to do, and yet so many ways to do it ever-more thoughtfully. 
+Curation, the fundamental duty of the netizen. So easy to do, and yet so many ways to do it ever-more thoughtfully. If you want to be fancy, you can call them "catalogues" instead.
 
 I'm only going to cover content, not how you should actually display these lists. Some presentation ideas have attained popular adoption (bookshelves with actual book cover images), but there are still hundreds yet to be tried. 
 
@@ -47,6 +47,8 @@ Including a short review/comparision with similar shows is a good touch.
 #### Talks
 Technical talks, speculative visions, video essays, guy/girl talking to a camera. Usually as a Youtube or Vimeo link; personal commentary encouraged. I've only seen [one example](https://www.btbytes.com/Talks-I-liked.html) so far, so please make your own.
 
+#### Starterpack 
+Uncategorised collection of all the media that has shaped you, from [Aaron Lewis](https://aaronzlewis.com/starterpack/).
 
 
 ## Quality
@@ -80,10 +82,15 @@ Patrick Colisson was the first site I saw this on, but I have no doubt it's been
 Give away your ideas for free, like all the people on [this list](https://joodaloop.com/idea-lists). 
 
 #### TIL
-You can call it a "Things I've Learnt" page if you don't want to be just about recent lessons. 
+You can call it a "[Things I've Learnt](https://thingsivelearnt.netlify.app/)" page if you don't want to be just about recent lessons. 
+
+#### People
+List of everyone you can vouch for/are important to you/are enemies with, from the internet as a whole or just a specific place like Twitter.
+
 
 #### Miscellaneous
-Things I Believe, Things I No Longer Believe, Green Flags, [Personal Syllabi](https://twitter.com/zhaovan8/status/1701737672740630704).
+[Things I Believe](https://gist.github.com/stettix/5bb2d99e50fdbbd15dd9622837d14e2b), Things I No Longer Believe, [Green Flags](https://ansonyu.me/flags), [Personal Syllabi](https://twitter.com/zhaovan8/status/1701737672740630704).
+
 
 
 ## Useful
@@ -91,3 +98,8 @@ Things I Believe, Things I No Longer Believe, Green Flags, [Personal Syllabi](ht
 #### Tricks of the trade
 Pro tips, amateur tips, things you learned the hard way, things that are simple and worth doing.
 
+#### Advice (from me/that I follow)
+These are often different things.
+
+#### Recommendations
+Anything from typefaces to ecommerce stores to brands.
